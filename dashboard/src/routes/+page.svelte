@@ -1,5 +1,8 @@
 <script>
-  let message = "Welcome to the home page Hello"
+  import Sidebar from "../components/Sidebar.svelte";
 </script>
 
-<h1>{message}</h1>
+<h1>Hello world</h1>
+<div class="flex">
+  <Sidebar/>
+</div>
